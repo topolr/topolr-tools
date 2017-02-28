@@ -1,0 +1,28 @@
+{
+  "name": "topolr-automat",
+  "version": "0.0.1",
+  "description": "Automated code generation and processing tools of topolr",
+  "main": "main.js",
+  "bin": {
+    "topolr-automat": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/hou80houzhu/topolr-ladon.git"
+  },
+  "author": "hou80houzhu",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.11.1",
+    "readline-sync": "^1.4.4",
+    "request": "^2.79.0",
+    "topolr-util": "^0.1.10",
+    "zip": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodegit": "^0.16.0"
+  }
+}

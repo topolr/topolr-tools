@@ -1,0 +1,13 @@
+{
+  "mysql": {
+    "host": "localhost",
+    "port":"3306",
+    "user": "root",
+    "password": "",
+    "debug":false,
+    "database":"blog"
+  },
+  "model":{
+    "database":"todo"
+  }
+}
